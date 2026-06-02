@@ -2,7 +2,7 @@
   "name": "chrominal",
   "displayName": "Chrominal",
   "description": "Open new terminals with random colors and icons directly from the editor title bar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "covenant-17",
   "license": "MIT",
   "repository": {
@@ -12,6 +12,7 @@
   "engines": {
     "vscode": "^1.60.0"
   },
+  "icon": "logo-icon.png",
   "categories": ["Other"],
   "keywords": ["terminal", "color", "icon", "panel", "editor tab"],
   "activationEvents": ["onStartupFinished"],

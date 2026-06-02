@@ -1,5 +1,7 @@
 # Chrominal
 
+![Chrominal](logo-icon.png)
+
 Open new terminals instantly from the editor title bar — each one with a unique random color and icon.
 
 ## Features
