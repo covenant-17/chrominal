@@ -1,0 +1,51 @@
+{
+  "name": "chrominal",
+  "displayName": "Chrominal",
+  "description": "Adds a permanent button to the editor title bar to open a new terminal with a random color and icon",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "chrominal.openColoredTerminal",
+        "title": "Open New Colored Terminal (Panel)",
+        "icon": "$(terminal)"
+      },
+      {
+        "command": "chrominal.openColoredTerminalInEditor",
+        "title": "Open New Colored Terminal (Editor Tab)",
+        "icon": "$(terminal-tmux)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "chrominal.openColoredTerminal",
+          "group": "navigation",
+          "when": "true"
+        },
+        {
+          "command": "chrominal.openColoredTerminalInEditor",
+          "group": "navigation",
+          "when": "true"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "@types/node": "^16.0.0",
+    "typescript": "^5.0.0"
+  }
+}
