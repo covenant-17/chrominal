@@ -7,16 +7,6 @@ const COLORS = [
   'terminal.ansiBlue',
   'terminal.ansiMagenta',
   'terminal.ansiCyan',
-  'terminal.ansiWhite',
-  'terminal.ansiBlack',
-  'terminal.ansiBrightRed',
-  'terminal.ansiBrightGreen',
-  'terminal.ansiBrightYellow',
-  'terminal.ansiBrightBlue',
-  'terminal.ansiBrightMagenta',
-  'terminal.ansiBrightCyan',
-  'terminal.ansiBrightWhite',
-  'terminal.ansiBrightBlack',
 ];
 
 const ICONS = [

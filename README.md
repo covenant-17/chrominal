@@ -11,7 +11,7 @@ Two buttons are always visible in the editor title bar:
 - **Terminal (Panel)** — opens a new terminal in the bottom panel
 - **Terminal (Editor Tab)** — opens a new terminal as a full editor tab
 
-Every terminal gets a distinct color and icon automatically picked to avoid duplicates with already open terminals.
+Every terminal gets a distinct color and icon automatically picked to avoid duplicates with already open terminals. Colors are chosen from a curated palette of 6 vivid ANSI colors (red, green, yellow, blue, magenta, cyan) — white and black are excluded for better visibility.
 
 ## Usage
 
