@@ -1,13 +1,19 @@
 {
   "name": "chrominal",
   "displayName": "Chrominal",
-  "description": "Adds a permanent button to the editor title bar to open a new terminal with a random color and icon",
+  "description": "Open new terminals with random colors and icons directly from the editor title bar",
   "version": "0.0.1",
-  "publisher": "local",
+  "publisher": "covenant-17",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/covenant-17/chrominal"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": ["Other"],
+  "keywords": ["terminal", "color", "icon", "panel", "editor tab"],
   "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
