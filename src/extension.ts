@@ -56,10 +56,8 @@ function createColoredTerminal(location?: vscode.TerminalLocation): void {
 
   const colorId = pickRandom(COLORS, usedColors);
   const iconId = pickRandom(ICONS, usedIcons);
-  const name = `Terminal #${vscode.window.terminals.length + 1}`;
 
   const terminal = vscode.window.createTerminal({
-    name,
     color: new vscode.ThemeColor(colorId),
     iconPath: new vscode.ThemeIcon(iconId),
     ...(location !== undefined ? { location } : {}),
